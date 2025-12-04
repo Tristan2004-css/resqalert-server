@@ -1,0 +1,13 @@
+{
+    "name": "resqalert-server",
+    "version": "1.0.0",
+    "description": "ResQAlert notification backend for Firebase RTDB + FCM (deployed on Render)",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.19.0",
+        "firebase-admin": "^12.0.0"
+    }
+}
